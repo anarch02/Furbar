@@ -26,9 +26,9 @@ class ProductFactory extends Factory
             'tags' => $this->faker->randomElements(['new', 'hot', 'sale', 'gift', 'popular'], 2),
             'status' => $this->faker->randomElement(['draft', 'published']),
             'images' => [
-                'https://via.placeholder.com/150',
-                'https://via.placeholder.com/150',
-                'https://via.placeholder.com/150',
+                'https://via.placeholder.com/270x303',
+                'https://via.placeholder.com/270x303',
+                'https://via.placeholder.com/270x303',
             ]
         ];
     }
